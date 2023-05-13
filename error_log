@@ -1,0 +1,3 @@
+[09-May-2023 13:15:37 UTC] Cron unschedule event error for hook: wordfence_start_scheduled_scan, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[1683620400]}
+[12-May-2023 12:40:19 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[12-May-2023 12:40:33 UTC] Cron unschedule event error for hook: wordfence_start_scheduled_scan, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[1683879601]}
