@@ -34,7 +34,7 @@ a:-webkit-any-link:focus-visible {
     margin-right: auto;
 }
 .header_logo_2{
-	width: 70px;
+	width: 95px;
 }
 .horse_img{
     position: absolute;
@@ -314,7 +314,7 @@ font-family: 'Darker Grotesque', sans-serif!important;
 	padding-top: 0px;
 }
 .site-logo .custom-logo {
-	width: 150px;
+	width: 100%;
 }
 .horse_img {
     position: absolute;
@@ -398,7 +398,7 @@ ul .menu-item a{
 	margin-left: -20px;
 }
 .main-footer{
-	padding: 20px 25px 200px 25px;
+	padding: 20px 25px 55px 25px;
 }
 .gcl-player-mobile{
 	display: block;

@@ -25,10 +25,10 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
    			</div>
 		</div>
 	</div>
-<header id="masthead" class="<?php echo esc_attr( $wrapper_classes ); ?>">
+<header id="masthead" class="<?php echo esc_attr( $wrapper_classes ); ?> py-0">
 
 	<?php get_template_part( 'template-parts/header/site-branding' ); ?>
 	<?php get_template_part( 'template-parts/header/site-nav' ); ?>
-	<a href="https://www.fide.com/" target="blank" class= "text-decoration-none d-flex justify-content-end"><img src="/wp-content/uploads/2023/02/gcl_logo_2.png" class="img-responsive header_logo_2"></a>
+	<a href="https://www.fide.com/" target="blank" class= "text-decoration-none d-flex justify-content-end"><img src="/wp-content/uploads/2023/05/gcl_logo_3.png" class="img-responsive header_logo_2"></a>
 
 </header><!-- #masthead -->

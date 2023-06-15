@@ -29,7 +29,37 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FBJE4HLYNJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-FBJE4HLYNJ');
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsOrganization",
+  "name": "Global Chess League",
+  "url": "https://globalchessleague.com/",
+  "logo": "
+
+
+
+https://globalchessleague.com/wp-content/uploads/2023/05/Final-Logo_22-May-copy_White.svg
+ ",
+  "sameAs": [
+    "https://twitter.com/GCLlive",
+    "https://www.facebook.com/OfficialGlobalChessLeague",
+    "https://www.instagram.com/officialglobalchessleague/",
+    "https://www.linkedin.com/company/officialglobalchessleague/",
+    "https://www.youtube.com/@OfficialGCL"
+  ]
+}
+</script> 
 	<?php wp_head(); ?>
 
 </head>

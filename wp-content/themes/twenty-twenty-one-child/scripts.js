@@ -32,6 +32,36 @@ jQuery(document).ready(function () {
      loop: false,
      speed: 2000,
    });
+   
+   
+       //gcl Banner slider
+    var swiper = new Swiper(".gcl_banner_slider", {
+     slidesPerView: 1,
+     spaceBetween: 30,
+     loop: false,
+      autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+     speed: 1000,
+     navigation: {
+      nextEl: ".q-swiper-button.swiper-button-next",
+      prevEl: ".q-swiper-button.swiper-button-prev",
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 1,
+      },
+      1024: {
+        slidesPerView: 1,
+      },
+    },
+  });
+   
+   
 
     //gcl matches slider
     var swiper = new Swiper(".gcl_matches_slider", {
@@ -64,6 +94,10 @@ jQuery(document).ready(function () {
      spaceBetween: 30,
      loop: false,
      speed: 1000,
+     autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
      navigation: {
       nextEl: "."+button_class+"-swiper-button.swiper-button-next",
       prevEl: "."+button_class+"-swiper-button.swiper-button-prev",
@@ -86,6 +120,62 @@ jQuery(document).ready(function () {
   gcl_post_slider('.focus_player_slider', 'e');
 
 	// end ready function
+    //super star slider//
+  });  
+     var focus_player_1 = new Swiper('.focus_player_slider_1', {
+     slidesPerView: 1,
+     spaceBetween: 30,
+     loop: false,
+     speed: 1000,
+     autoplay: {
+    delay: 6500,
+    disableOnInteraction: false,
+  },
+
+     navigation: {
+      nextEl: ".g-swiper-button.swiper-button-next",
+      prevEl: ".g-swiper-button.swiper-button-prev",
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 4,
+      },
+    },
+      
+});
+
+ var focus_player_1 = new Swiper('.focus_player_slider_2', {
+     slidesPerView: 1,
+     spaceBetween: 30,
+     loop: false,
+     speed: 1000,
+     autoplay: {
+    delay: 7500,
+    disableOnInteraction: false,
+  },
+
+     navigation: {
+      nextEl: ".h-swiper-button.swiper-button-next",
+      prevEl: ".h-swiper-button.swiper-button-prev",
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 4,
+      },
+    },
+      
 });
 
 
@@ -106,10 +196,10 @@ function gcl_post_slider(slider_class, button_class){
         slidesPerView: 2,
       },
       768: {
-        slidesPerView: 2,
+        slidesPerView: 3,
       },
       1024: {
-        slidesPerView: 3,
+        slidesPerView: 6,
       },
     },
   });
@@ -126,5 +216,3 @@ function scrollFunction() {
     document.getElementById("masthead").style.padding = "15px 40px";
   }
 }
-
-

@@ -1,2 +1,0 @@
-# globalchessleague.com
-live globalchessleague

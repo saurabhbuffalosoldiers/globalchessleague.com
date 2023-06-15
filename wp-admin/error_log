@@ -1,0 +1,31 @@
+[13-Jun-2023 11:26:29 UTC] PHP Warning:  require_once(/home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/vendor/freemius/wordpress-sdk/start.php): Failed to open stream: No such file or directory in /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/freemius.php on line 12
+[13-Jun-2023 11:26:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/vendor/freemius/wordpress-sdk/start.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/freemius.php:12
+Stack trace:
+#0 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/freemius.php(51): sliFreemius()
+#1 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/plugin.php(59): require_once('/home/kqb0qe82n...')
+#2 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-admin/includes/plugin.php(2313): include_once('/home/kqb0qe82n...')
+#3 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-admin/includes/plugin.php(661): plugin_sandbox_scrape()
+#4 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-admin/plugins.php(58): activate_plugin()
+#5 {main}
+  thrown in /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/freemius.php on line 12
+[13-Jun-2023 11:26:30 UTC] PHP Warning:  require_once(/home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/vendor/freemius/wordpress-sdk/start.php): Failed to open stream: No such file or directory in /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/freemius.php on line 12
+[13-Jun-2023 11:26:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/vendor/freemius/wordpress-sdk/start.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/freemius.php:12
+Stack trace:
+#0 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/freemius.php(51): sliFreemius()
+#1 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/plugin.php(59): require_once('/home/kqb0qe82n...')
+#2 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-admin/includes/plugin.php(2313): include_once('/home/kqb0qe82n...')
+#3 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#4 {main}
+  thrown in /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/freemius.php on line 12
+[13-Jun-2023 11:26:30 UTC] PHP Warning:  require_once(/home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/vendor/freemius/wordpress-sdk/start.php): Failed to open stream: No such file or directory in /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/freemius.php on line 12
+[13-Jun-2023 11:26:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/vendor/freemius/wordpress-sdk/start.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/freemius.php:12
+Stack trace:
+#0 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/freemius.php(51): sliFreemius()
+#1 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/plugin.php(59): require_once('/home/kqb0qe82n...')
+#2 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-admin/includes/plugin.php(2313): include_once('/home/kqb0qe82n...')
+#3 /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#4 {main}
+  thrown in /home/kqb0qe82na2x/public_html/gcl.turninon.in/wp-content/plugins/spotlight-social-photo-feeds/freemius.php on line 12
+[13-Jun-2023 11:56:15 UTC] FTS vs test check 
+[13-Jun-2023 11:56:15 UTC] FTS did_upgrade
+[13-Jun-2023 11:56:15 UTC] FTS Upgrade complete
